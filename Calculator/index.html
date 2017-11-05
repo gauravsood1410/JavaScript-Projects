@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body >
+    <div id="container">
+    <div id="calculator">
+      <form>
+        <input type="text" id="display" disabled  /> <br />
+
+        <input type="button" title="All Clear" value="AC" id="clear" onclick="addtoscreen('c')" />
+        <input type="button" title="Backspace" value="🡸" id="keys" onclick="backspace()" />
+        <input type="button" title="Unary Square" value="x^2" id="keys"  onclick="power(2)"   />
+        <input type="button" title="Division" value="/" id="operator" onclick="addtoscreen('/')" />
+        <br />
+
+        <input type="button" value="7" id="keys" onclick="addtoscreen('7')" />
+        <input type="button" value="8" id="keys" onclick="addtoscreen('8')" />
+        <input type="button" value="9" id="keys" onclick="addtoscreen('9')" />
+        <input type="button" title="Multiplication" value="*" id="operator" onclick="addtoscreen('*')" />
+        <br />
+        <input type="button" value="4" id="keys" onclick="addtoscreen('4')" />
+        <input type="button" value="5" id="keys" onclick="addtoscreen('5')" />
+        <input type="button" value="6" id="keys" onclick="addtoscreen('6')" />
+        <input type="button" title="Subtraction" value="-" id="operator" onclick="addtoscreen('-')" />
+        <br />
+        <input type="button" value="1" id="keys" onclick="addtoscreen('1')" />
+        <input type="button" value="2" id="keys" onclick="addtoscreen('2')" />
+        <input type="button" value="3" id="keys" onclick="addtoscreen('3')" />
+        <input type="button" title="Addition" value="+" id="operator" onclick="addtoscreen('+')" />
+        <br />
+        <input type="button" value="0" id="keys" onclick="addtoscreen('0')" />
+        <input type="button" value="." id="keys" onclick="addtoscreen('.')" />
+        <input type="button" title="Result" value="="  id="equal" onclick="answer()"   />
+        <br />
+        <marquee align="bottom"  direction="left" font-size=20px
+        onmouseover="this.stop();" onmouseout="this.start();">
+           Basic Calculator + - * / =
+        </marquee>
+      </form>
+    </div>
+    <div id="keyboard" >
+      <h2 id="heading" text-align: center> <em>Keyboard Instructions</em></h2>
+      <ul>
+        <li>0-9: Numeric Keypad / Default keys</li>
+        <li>+ - * / : Numeric keypad.</li>
+        <li>All Clear (AC) : c key.</li>
+        <li>🡸 : Backspace.</li>
+        <li>Result: Enter Key or = key.</li>
+      </ul>
+    </div>
+  </div>
+  <p id="copyright">
+     <br /><br /><br />Project by: <font color=#f4f7fa> <em>Gaurav Sood.</em></font><br />
+     <a href="https://github.com/gauravsood1410">Github</a>
+     <a href="https://twitter.com/gauravsood_">Twitter</a>
+  </p>
+
+    <script src="myscript.js"></script>
+  </body>
+</html>
