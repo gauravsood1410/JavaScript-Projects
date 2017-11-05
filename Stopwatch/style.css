@@ -1,0 +1,70 @@
+body{
+  background: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#display{
+  background-color: #c4c4c4;
+  width: 375px;
+  height: auto;
+  text-align: center;
+  margin: 90px 600px;
+  border: none;
+  padding: 15px 20px  9px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #ccff00;
+}
+
+#timer{
+  font-family: "Lato";
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  width: 375px;
+  height: auto;
+  margin-bottom: 3px;
+  border: 2px red;
+  border-radius: 50px;
+}
+#lapdisplay{
+  width: 220px;
+  height: 20px;
+  padding: 10px 10px  9px;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align: center;
+  background: #ffa814;
+  margin-top: 80px;
+  margin-left: 680px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Lato";
+  box-shadow: 0px 0px 20px red;
+}
+.key{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto 2px;
+    box-shadow: 0px 0px 20px skyblue;
+}
+#copyright{
+  margin-top: 200px;
+
+}
+
+.key:hover{
+  cursor: pointer;
+  background: #4169E1;
+  box-shadow: 0px 0px 20px #FF0000;
+  font-weight: bold;
+}
