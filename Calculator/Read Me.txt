@@ -1,0 +1,11 @@
+JS calculator developed by Gaurav Sood.
+
+To operate the calculator:
+1. Make sure all the files are in same directory.
+2. Open the HTML file index.html in your browser.
+3. Input the data through mouse or through keyboard.
+4. Press equal to (=) or Enter key to display output of the entered expression.
+
+Note:
+This is a basic calculator capable of performing basic operations(+-*/)
+and square of a number.
