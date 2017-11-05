@@ -1,0 +1,7 @@
+JS Stopwatch developed by Gaurav Sood.
+
+To operate the stopwatch
+1. Make sure all files are in same directory
+2. Open index.html in web browser.
+3. Start / reset stopwatch using buttons displayed
+4. Press Lap button to lap timing.
