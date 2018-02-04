@@ -48,7 +48,7 @@ document.addEventListener("keydown", function(event) {
       if(t==true) { box.value=''; t=false; }
       box.value += temp;
     }
-    else if(event.which == 13 ||event.which==187 ){
+    else if(event.which==187 ){
       answer();
     }
     else if (event.which == 67)
